@@ -1,0 +1,13 @@
+Dataset-https://www.kaggle.com/aaron7sun/stocknews
+
+Objective-predict stock market using news hedlines
+
+Algorithm-Random Forest,NLP
+
+other tools-pandas,accuracy score,confusion matrix
+
+Steps Followed:
+1) divide data in test as train as given in description
+2) remove all puntuations,than covert to lower case and than append entire set together
+3) than use countvectorize and random forest
+got accuracy-51.3%
